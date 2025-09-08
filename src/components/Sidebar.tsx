@@ -8,8 +8,8 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
   const menuItems = [
-    { id: 'profile', label: 'Document', icon: User, active: false },
-    { id: 'verification', label: 'Verification Module', icon: Shield, active: false },
+    { id: 'profile', label: 'Documents', icon: User, active: false },
+    { id: 'verification', label: 'Verify', icon: Shield, active: false },
     { id: 'vtin', label: 'MY VTIN', icon: CreditCard, active: false },
     { id: 'subscription', label: 'Subscription', icon: FileText, active: false },
   ];
